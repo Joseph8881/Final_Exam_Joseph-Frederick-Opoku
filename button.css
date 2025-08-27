@@ -1,0 +1,25 @@
+body {
+    transition: background-color 0.5s ease; /* Smooth transition for color change */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
