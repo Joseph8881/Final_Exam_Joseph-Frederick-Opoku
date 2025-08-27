@@ -7,6 +7,54 @@
      <script src="script.js" defer></script>
 </head>
 <body>
+ <h1>My Favorite Movies</h1>
+    <ul id="movieList"></ul>
 
+    <h1>Student Details</h1>
+    <div id="studentDetails"></div>
+
+    <script>
+    
+        const favoriteMovies = [
+            "Hideouts",
+            "The Innocents",
+            "Door in the woods",
+            "Violett",
+            "99 Moons"
+        ];
+
+    
+        const movieList = document.getElementById('movieList');
+
+    
+        favoriteMovies.forEach(movie => {
+            const listItem = document.createElement('li');
+            listItem.textContent = movie;
+            movieList.appendChild(listItem);
+        });
+
+    
+        const student = {
+            name: "Joseph",
+            age: 30,
+            skills: ["JavaScript", "HTML", "CSS", "Python"]
+        };
+
+        
+        const studentDetailsDiv = document.getElementById('studentDetails');
+
+
+        const studentName = document.createElement('p');
+        studentName.textContent = `Name: ${student.name}`;
+        studentDetailsDiv.appendChild(studentName);
+
+        const studentAge = document.createElement('p');
+        studentAge.textContent = `Age: ${student.age}`;
+        studentDetailsDiv.appendChild(studentAge);
+
+        const studentSkills = document.createElement('p');
+        studentSkills.textContent = `Skills: ${student.skills.join(', ')}`;
+        studentDetailsDiv.appendChild(studentSkills);
+    </script>
 </body>
 </html>
