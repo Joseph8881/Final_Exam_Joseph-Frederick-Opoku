@@ -1,6 +1,7 @@
 # Final_Exam_Joseph Frederick Opoku
 
-
-Project Tittle
+ 
+Project Tittle : 
+     
 JavaScript Final Exam
 
