@@ -56,7 +56,7 @@ document.write(`<p>The square of ${num2} is: ${square2}</p>`);
 document.write(`<p>The square of ${num3} is: ${square3}</p>`);
 
 
-// Ask the user for their age and display an alert based on age group
+// Ask the user for their age and display  alert based on age group
 const age = parseInt(prompt("Please enter your age:"));
 
 if (age < 18) {
